@@ -52,7 +52,8 @@ You visited your friend’s house. He brought two bottles of foreign beer. He sa
 
 ## 7. Members 
 <b>
-#### Image Processing Team
+
+#### Image Processing Team 
 * 박창준 [[Github]](https://github.com/CAUOBJ)
 * 김청빈 [[Github]](https://github.com/ChungbinKim)
 * 이정민 [[Github]](https://github.com/minlee077)
