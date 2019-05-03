@@ -35,9 +35,11 @@ You visited your friend’s house. He brought two bottles of foreign beer. He sa
 
 ***to be updated ...***
 
+
 ## 4. Installation Process
 
 ***to be updated ...***
+
 
 ## 5. About Image processing
 
@@ -52,7 +54,7 @@ Classification Architecture : Inception v3 [[arxiv]](https://arxiv.org/abs/1512.
 
 
 
-## 5. Copyright
+## 6. Copyright
 
 
 
@@ -60,11 +62,12 @@ Classification Architecture : Inception v3 [[arxiv]](https://arxiv.org/abs/1512.
 
 
 
-## 6. Contact Information
+## 7. Contact Information
 
 <b>[minlee077@naver.com](minlee077@naver.com)</b>
 
-## 7. Members 
+
+## 8. Members 
 <b>
 
 #### Image Processing Team 
@@ -78,5 +81,6 @@ Classification Architecture : Inception v3 [[arxiv]](https://arxiv.org/abs/1512.
 
 </b>
 
-## 8. Change Logs
+
+## 9. Change Logs
 
