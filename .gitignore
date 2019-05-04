@@ -3,3 +3,7 @@ Datasets/train/
 Datasets/test/
 
 
+## Model Weights ##
+Model/inception*
+Model/model.tgz
+
