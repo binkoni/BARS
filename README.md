@@ -76,7 +76,7 @@ Classification Architecture : Inception v3 [[arxiv]](https://arxiv.org/abs/1512.
 * 이정민 [[Github]](https://github.com/minlee077)
 
 #### Application Development Team
-* 이현제 [[Github]](https://github.com/HyeonJe)
+* 현제 [[Github]](https://github.com/HyeonJe)
 * 서재훈 [[Github]](https://github.com/Jaehooooooon)
 
 </b>
