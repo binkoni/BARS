@@ -47,6 +47,7 @@ You visited your friend’s house. He brought two bottles of foreign beer. He sa
 ### Data Annotation tool
 
 - VLC Media Player
+<br>
 extracting frames from a video [github](https://github.com/videolan/vlc)
 
 <br>
