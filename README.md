@@ -42,19 +42,23 @@ You visited your friend’s house. He brought two bottles of foreign beer. He sa
 
 
 ## 5. About Image processing
+<br>
 
 ### Data Annotation tool
 
-*VLC Media Player
+- VLC Media Player
 extracting frames from a video [github](https://github.com/videolan/vlc)
 
-Framework : [Tensorflow](https://www.tensorflow.org/) & [Tensorflow lite](https://www.tensorflow.org/lite)
+<br>
+### Image Processing 
+
+ - Framework : [Tensorflow](https://www.tensorflow.org/) & [Tensorflow lite](https://www.tensorflow.org/lite)
 
 
 ![tf_lite_image](https://cdn-images-1.medium.com/max/1000/0*Bt9qwKDjd1xi5RDd.)
 
 
-Classification Architecture : Inception v3 [[arxiv]](https://arxiv.org/abs/1512.00567)
+ - Classification Architecture : Inception v3 [[arxiv]](https://arxiv.org/abs/1512.00567)
 
 
 
