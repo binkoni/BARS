@@ -4,8 +4,6 @@
  Beer Auto Recognition System for mobile
 
 
-
-
 ## 1. What is BARS?
 
 <b>Beer Auto Recognition System(BARS)</b> is a mobile application that will help you search beers that you've never seen before.
@@ -53,9 +51,16 @@ extracting frames from a video [github](https://github.com/videolan/vlc)
 
 <br>
 
+- Crawling 
+<br>
+
+Beautiful Soup4
+
+<br>
+
 ### Image Processing 
 
- - Framework : [Tensorflow](https://www.tensorflow.org/) & [Tensorflow lite](https://www.tensorflow.org/lite)
+ - Framework : [Tensorflow 2.0 Alpha](https://www.tensorflow.org/) & [Tensorflow lite](https://www.tensorflow.org/lite)
 
 
 ![tf_lite_image](https://cdn-images-1.medium.com/max/1000/0*Bt9qwKDjd1xi5RDd.)
