@@ -51,10 +51,11 @@ extracting frames from a video [github](https://github.com/videolan/vlc)
 
 <br>
 
-- Crawling 
+- Beautiful Soup4
+
 <br>
 
-Beautiful Soup4
+Crawling image data
 
 <br>
 
