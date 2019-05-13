@@ -44,10 +44,10 @@ You visited your friend’s house. He brought two bottles of foreign beer. He sa
 
 ### Data Annotation tool
 
-- VLC Media Player
+- VLC Media Player [[github]](https://github.com/videolan/vlc)
 <br>
 
-extracting frames from a video [github](https://github.com/videolan/vlc)
+extracting frames from a video 
 
 <br>
 
@@ -56,6 +56,14 @@ extracting frames from a video [github](https://github.com/videolan/vlc)
 <br>
 
 Crawling image data
+
+<br>
+
+- imgaug [[github]](https://github.com/aleju/imgaug-doc)
+
+<br>
+
+image augmentation package
 
 <br>
 
