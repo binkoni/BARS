@@ -4,6 +4,10 @@ Datasets/test/
 
 
 ## Model Weights ##
-Model/inception*
+Model/inception*	
 Model/model.tgz
+
+
+## jupyter checkpoint
+*.ipynb_checkpoints
 
