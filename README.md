@@ -18,25 +18,25 @@ For maintenance, continuous interest to new beer products is required.
 
 ## 2. Use cases
 
-##### case 1)
-You went to a convenience store to grab some beers to drink. You are fed up with Korean beers that you’ve been drinking for years. Just then, you notice that there are lots of imported beers that you’ve never drank before. There are too many choices and it’s even hard to read the label because it’s written in foreign language. At the time you run the BARS app and take some photos of those beers and upload it. Now, You have all the info about those beers which will make you a smart consumer.
+#### case 1
+ You went to a convenience store to grab some beers to drink. You are fed up with Korean beers that you’ve been drinking for years. Just then, you notice that there are lots of imported beers that you’ve never drank before. There are too many choices and it’s even hard to read the label because it’s written in foreign language. At the time you run the BARS app and take some photos of those beers and upload it. Now, You have all the info about those beers which will make you a smart consumer.
 Enjoy the beer!
 
-##### case 2)
-You are a traveller visiting Korea. You wonder how the Korean beer will taste like. It’s seems like “Hite beer” and “Cass Beer” is the most famous beer in Korea. Take photos of two beers. upload it on the BARS app. You notice that the rating of those two beers are pretty low. You put those beers back on the shell and take some more photos of Korean beer. After a while, you find a beer with rather high rating. Grab it and enjoy it.
+#### case 2
+ You are a traveller visiting Korea. You wonder how the Korean beer will taste like. It’s seems like “Hite beer” and “Cass Beer” is the most famous beer in Korea. Take photos of two beers. upload it on the BARS app. You notice that the rating of those two beers are pretty low. You put those beers back on the shell and take some more photos of Korean beer. After a while, you find a beer with rather high rating. Grab it and enjoy it.
 
-##### case 3)
-You visited your friend’s house. He brought two bottles of foreign beer. He said grab one you like. You take photos of two beers and upload it on BARS app. Blue label beer is IPA beer which you prefer the most. Grab the beer and enjoy it.
+#### case 3
+ You visited your friend’s house. He brought two bottles of foreign beer. He said grab one you like. You take photos of two beers and upload it on BARS app. Blue label beer is IPA beer which you prefer the most. Grab the beer and enjoy it.
 
 
-## 3. Prerequisites
+## 3. Requirements
 
 <br>
 
 ### For User
 
 <br>
-
+...작성중...
 <br>
 
 ### For Developer
@@ -47,29 +47,32 @@ You visited your friend’s house. He brought two bottles of foreign beer. He sa
 
 <br>
 
- - Image Crawling (external tool) [[github]](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)
+Except external image crawling tool, all of image processing steps are done on python3.7 environment. <br>
+Especially we use conda virtual environment, so if you want to continue the project you have to meet following environment conditions.
 
 <br>
 
-you can find more detail about the tool in [README](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)
+ - <b>Image crawling (external tool) [[github]](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)</b>
 
 <br>
 
- - Image augmentation 
+You can find more detail about the tool in [README](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)
 
 <br>
 
- [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_augmentation_environment.yml) 
- [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageAugmentation(cass).ipynb)
+ - <b>Image augmentation </b>
 
 <br>
 
- - Image Classification 
+ If you need data augmentation, you should install following python packages. [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_augmentation_environment.yml) 
 
 <br>
 
- [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_classification_environment.txt) 
- [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageClassification.ipynb)
+ - Image classification 
+
+<br>
+
+ If you want to renew classification model, you should insall following python packages. [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_classification_environment.txt) 
 
 <br>
 
@@ -79,6 +82,7 @@ you can find more detail about the tool in [README](https://github.com/dmsehf804
 
 ***to be updated ...***
 
+<br>
 
 ## 5. About Image processing
 <br>
@@ -92,26 +96,17 @@ you can find more detail about the tool in [README](https://github.com/dmsehf804
 
 <br>
 
-- Beautiful Soup4 [[github]](https://github.com/aleju/imgaug)
-
-<br>
- Crawling image data
-
-<br>
-
 - Imgaug [[github]](https://github.com/aleju/imgaug-doc)
 
 <br>
-
-Image augmentation package
-<br>
-
+ Image augmentation package. If you meet the environment setting you can just follow [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageAugmentation(cass).ipynb)
 
 <br>
 
 ### Image Processing 
 
- - Framework : [Tensorflow 2.0 Alpha](https://www.tensorflow.org/) & [Tensorflow lite](https://www.tensorflow.org/lite)
+
+- Deep learning Framework : [Tensorflow 2.0 Alpha](https://www.tensorflow.org/) & [Tensorflow lite](https://www.tensorflow.org/lite)
 
 
 ![tf_lite_image](https://cdn-images-1.medium.com/max/1000/0*Bt9qwKDjd1xi5RDd.)
@@ -119,15 +114,12 @@ Image augmentation package
 
  - Classification Architecture : Inception v3 [[arxiv]](https://arxiv.org/abs/1512.00567)
 
+ Specific implementation : [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageClassification.ipynb)
 
 
 ## 6. Copyright
 
-
-
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-
 
 ## 7. Contact Information
 
