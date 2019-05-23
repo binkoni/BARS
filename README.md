@@ -88,23 +88,22 @@ you can find more detail about the tool in [README](https://github.com/dmsehf804
 - VLC Media Player [[github]](https://github.com/videolan/vlc)
 <br>
 
-- extracting frames from a video 
+ Extracting frames(image) from videos
 
 <br>
 
-- Beautiful Soup4
+- Beautiful Soup4 [[github]](https://github.com/aleju/imgaug)
+
+<br>
+ Crawling image data
 
 <br>
 
-- Crawling image data
+- Imgaug [[github]](https://github.com/aleju/imgaug-doc)
 
 <br>
 
-- imgaug [[github]](https://github.com/aleju/imgaug-doc)
-
-<br>
-
-image augmentation package
+Image augmentation package
 <br>
 
 
