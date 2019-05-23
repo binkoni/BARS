@@ -37,7 +37,7 @@ Android 8.0 (Oreo) (or higher version)
 <br>
 
 ### For Developer
-<br> 
+
 #### Application Development
 <br> 
 Android Studio 3.2 (installed on a Linux, Mac or Windows machine) <br>
