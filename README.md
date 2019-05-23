@@ -36,11 +36,19 @@ Enjoy the beer!
 ### For User
 
 <br>
-...작성중...
+Android 8.0 (Oreo) (or higher version)
 <br>
 
 ### For Developer
 
+<br> 
+
+#### Application Development
+
+Android Studio 3.2 (installed on a Linux, Mac or Windows machine) <br>
+Android TensorFlow Lite AAR<br>
+
+You can find more detail about application development setting on [docs](https://www.tensorflow.org/lite/guide/android)
 <br> 
 
 #### Image Processing
@@ -116,17 +124,26 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 
  Specific implementation : [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageClassification.ipynb)
 
+## 6. Tested Device
 
-## 6. Copyright
+Device : Samsung Galaxy Note8 (SM-N950N) + Android 9.0 (Pie) <br>
+Build environment: <br>
+Mac OSX 10.11.6 <br>
+bazel Version : 0.8 <br>
+Android Studio 3.2 <br>
+Android Build Tools Level: 26.1.1<br>
+Android NDK Version: r19c <br>
+
+## 7. Copyright
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-## 7. Contact Information
+## 8. Contact Information
 
 <b>[minlee077@naver.com](minlee077@naver.com)</b>
 
 
-## 8. Members 
+## 9. Members 
 <b>
 
 #### Image Processing Team 
@@ -141,6 +158,6 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 </b>
 
 
-## 9. Change Logs
+## 10. Change Logs
 
 ------------------ Alpha release 2019-05-24 ------------------
