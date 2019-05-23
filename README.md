@@ -47,7 +47,7 @@ You visited your friend’s house. He brought two bottles of foreign beer. He sa
 
 <br>
 
- - Image Crawling (external tool) ![[github]](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)
+ - Image Crawling (external tool) [[github]](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)
 
 <br>
 
@@ -59,7 +59,8 @@ you can find more detail about the tool in [README](https://github.com/dmsehf804
 
 <br>
 
- ![[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_augmentation_environment.yml) ![[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageAugmentation(cass).ipynb)
+ [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_augmentation_environment.yml) 
+ [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageAugmentation(cass).ipynb)
 
 <br>
 
@@ -67,7 +68,8 @@ you can find more detail about the tool in [README](https://github.com/dmsehf804
 
 <br>
 
-![[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_classification_environment.txt) ![[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageClassification.ipynb)
+ [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_classification_environment.txt) 
+ [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageClassification.ipynb)
 
 <br>
 
