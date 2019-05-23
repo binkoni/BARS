@@ -52,8 +52,7 @@ Except external image crawling tool, all of image processing steps are done on p
 Especially we use conda virtual environment, so if you want to continue the project you have to meet following environment conditions.
 <br>
 
- - <b>Image crawling (external tool) [[github]](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)
-</b>
+ - <b>Image crawling (external tool) [[github]](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)</b>
  
 <br>
 
