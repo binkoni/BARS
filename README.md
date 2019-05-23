@@ -32,7 +32,6 @@ Enjoy the beer!
 ## 3. Requirements
 
 ### For User
-<br>
 Android 8.0 (Oreo) (or higher version)
 <br>
 
