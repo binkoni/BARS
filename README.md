@@ -31,7 +31,33 @@ You visited your friend’s house. He brought two bottles of foreign beer. He sa
 
 ## 3. Prerequisites
 
-***to be updated ...***
+<br>
+### For User
+<br>
+
+<br>
+### For Developer
+<br> 
+
+#### Image Processing
+
+<br>
+- Image Crawling (external tool) [[github]](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)
+you can find more detail about the tool in [README](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)
+
+<br>
+
+- Image augmentation 
+
+<br>
+ [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_augmentation_environment.yml) [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageAugmentation(cass).ipynb)
+<br>
+
+- Image Classification 
+<br>
+[[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_classification_environment.txt) [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageClassification.ipynb)
+<br>
+
 
 
 ## 4. Installation Process
@@ -47,7 +73,7 @@ You visited your friend’s house. He brought two bottles of foreign beer. He sa
 - VLC Media Player [[github]](https://github.com/videolan/vlc)
 <br>
 
-extracting frames from a video 
+- extracting frames from a video 
 
 <br>
 
@@ -55,7 +81,7 @@ extracting frames from a video
 
 <br>
 
-Crawling image data
+- Crawling image data
 
 <br>
 
@@ -64,6 +90,8 @@ Crawling image data
 <br>
 
 image augmentation package
+<br>
+
 
 <br>
 
