@@ -31,60 +31,36 @@ Enjoy the beer!
 
 ## 3. Requirements
 
-<br>
-
 ### For User
-
 <br>
 Android 8.0 (Oreo) (or higher version)
 <br>
 
 ### For Developer
-
 <br> 
-
 #### Application Development
-
+<br> 
 Android Studio 3.2 (installed on a Linux, Mac or Windows machine) <br>
 Android TensorFlow Lite AAR<br>
-
-You can find more detail about application development setting on [docs](https://www.tensorflow.org/lite/guide/android)
-<br> 
+You can find more detail about application development setting on [docs](https://www.tensorflow.org/lite/guide/android)<br> 
 
 #### Image Processing
-
 <br>
-
 Except external image crawling tool, all of image processing steps are done on python3.7 environment. <br>
 Especially we use conda virtual environment, so if you want to continue the project you have to meet following environment conditions.
-
 <br>
-
  - <b>Image crawling (external tool) [[github]](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)</b>
-
 <br>
-
 You can find more detail about the tool in [README](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)
-
 <br>
-
  - <b>Image augmentation </b>
-
 <br>
-
  If you need data augmentation, you should install following python packages. [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_augmentation_environment.yml) 
-
 <br>
-
  - <b>Image classification </b>
-
 <br>
-
  If you want to renew classification model, you should insall following python packages. [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_classification_environment.txt) 
-
 <br>
-
-
 
 ## 4. Installation Process
 
