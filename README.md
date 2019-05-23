@@ -68,7 +68,7 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 
 <br>
 
- - Image classification 
+ - <b>Image classification </b>
 
 <br>
 
