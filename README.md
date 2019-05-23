@@ -59,14 +59,18 @@ Especially we use conda virtual environment, so if you want to continue the proj
 You can find more detail about the tool in [README](https://github.com/dmsehf804/CIC-Crawling_In_Crawling-/blob/master/README.md)
 
 <br>
+
  - <b>Image augmentation </b>
+
 <br>
  
  If you need data augmentation, you should install following python packages. 
  [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_augmentation_environment.yml)
  
 <br>
+
  - <b>Image classification </b>
+
 <br>
 
  If you want to renew classification model, you should insall following python packages. [[environment]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/environments/image_classification_environment.txt)
