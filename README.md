@@ -42,7 +42,8 @@ Android 8.0 (Oreo) (or higher version)
 Android Studio 3.2 (installed on a Linux, Mac or Windows machine) <br>
 Android TensorFlow Lite AAR<br>
 
-You can find more detail about application development setting on [docs](https://www.tensorflow.org/lite/guide/android)
+
+You can find more detail about development environment of application on [docs](https://www.tensorflow.org/lite/guide/android)
 
 <br> 
 
