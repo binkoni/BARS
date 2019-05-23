@@ -143,3 +143,4 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 
 ## 9. Change Logs
 
+------------------ Alpha release 2019-05-24 ------------------
