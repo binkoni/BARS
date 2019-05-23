@@ -93,8 +93,6 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 <br>
 
 ## 5. About Image processing
-<br>
-
 ### Data Annotation tool
 
 - VLC Media Player [[github]](https://github.com/videolan/vlc)
