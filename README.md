@@ -93,11 +93,12 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 - Imgaug [[github]](https://github.com/aleju/imgaug-doc)
 
 <br>
- Image augmentation package. If you meet the environment setting you can just follow [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageAugmentation(cass).ipynb)
+ 
+ Image augmentation package. If you meet the environment setting, you just follow [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageAugmentation(cass).ipynb)
 
 <br>
 
-### Image Processing 
+### Image Classification
 
 
 - Deep learning Framework : [Tensorflow 2.0 Alpha](https://www.tensorflow.org/) & [Tensorflow lite](https://www.tensorflow.org/lite)
