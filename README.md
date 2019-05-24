@@ -80,7 +80,11 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 
 ## 4. Installation Process
 
-***to be updated ...***
+![install](https://github.com/minlee077/BARS/blob/master/assets/download_process.gif)
+
+<br>
+
+download .apk file on link and install it 
 
 <br>
 
