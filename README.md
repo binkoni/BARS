@@ -92,7 +92,7 @@ download apk file and install it [[BARS.apk]](https://github.com/minlee077/BARS/
 <br>
 
 
-## 5. How to running
+## 5. How to run
 
 
 ![main](https://github.com/minlee077/BARS/blob/master/assets/main.jpg)
