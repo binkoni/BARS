@@ -140,7 +140,7 @@ Android NDK Version: r19c <br>
 
 ## 8. Contact Information
 
-If you have any question or suggestion please contact me by following e-mail address or create issue please.
+If you have any questions or suggestions about the project, please contact me by e-mail or create issue in this repository.
 
 <b>[minlee077@naver.com](minlee077@naver.com)</b>
 
@@ -162,4 +162,9 @@ If you have any question or suggestion please contact me by following e-mail add
 
 ## 10. Change Logs
 
+[[alpha_Application]](https://github.com/minlee077/BARS/raw/master/Application/BARS.apk)
+
 ------------------ Alpha release 2019-05-24 (The model can classify cass, tsingtao, guinnes beer can) ------------------
+
+
+
