@@ -80,6 +80,7 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
  
 <br>
 
+
 ## 4. Installation Process
 
 ![install](https://github.com/minlee077/BARS/blob/master/assets/download_process.gif)
@@ -91,9 +92,28 @@ download apk file and install it [[BARS.apk]](https://github.com/minlee077/BARS/
 <br>
 
 
-<br>
+## 5. How to running
 
-## 5. About Image processing
+
+![main](https://github.com/minlee077/BARS/blob/master/assets/main.jpg)
+
+If you run our app, you will see this screen. <br>
+Touch camera icon and take a picture of beer what you want to know<br>
+
+
+![captioning](https://github.com/minlee077/BARS/blob/master/assets/cass_captioning.jpg)
+
+Then, the application tells you the beer's name.<br>
+If you want to know more about the beer then, touch '정보 보기' <br>
+
+
+![info](https://github.com/minlee077/BARS/blob/master/assets/cass_info.jpg)
+
+Now, You have all the info about the beer which will make you a smart consumer. Enjoy the beer!<br>
+
+
+
+## 6. About Image processing
 ### Data Annotation tool
 
 - VLC Media Player [[github]](https://github.com/videolan/vlc)
@@ -124,7 +144,7 @@ download apk file and install it [[BARS.apk]](https://github.com/minlee077/BARS/
 
  Specific implementation : [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageClassification.ipynb)
 
-## 6. Tested Device
+## 7. Tested Device
 
 Device : Samsung Galaxy Note8 (SM-N950N) + Android 9.0 (Pie) <br>
 Build environment: <br>
@@ -134,18 +154,18 @@ Android Studio 3.2 <br>
 Android Build Tools Level: 26.1.1<br>
 Android NDK Version: r19c <br>
 
-## 7. Copyright
+## 8. Copyright
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-## 8. Contact Information
+## 9. Contact Information
 
 If you have any questions or suggestions about the project, please contact me by e-mail or create issue in this repository.
 
 <b>[minlee077@naver.com](minlee077@naver.com)</b>
 
 
-## 9. Members 
+## 10. Members 
 <b>
 
 #### Image Processing Team 
@@ -160,7 +180,7 @@ If you have any questions or suggestions about the project, please contact me by
 </b>
 
 
-## 10. Change Logs
+## 11. Change Logs
 
 [[alpha_Application]](https://github.com/minlee077/BARS/raw/master/Application/BARS.apk)
 
