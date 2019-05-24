@@ -49,7 +49,7 @@ You can find more detail about development environment of application on [docs](
 
 <br> 
 
-#### Image Processing
+#### Image Processing Development
 <br>
 Except external image crawling tool, all of image processing steps are done on python3.7 environment. <br>
 Especially we use conda virtual environment, so if you want to continue the project you have to meet following environment conditions.
