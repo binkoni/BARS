@@ -14,7 +14,9 @@ When it is matched, information about beer comes up at the screen including the 
 
 
 To make the features more reliable, we will refer to the data on worldwide famous beer information websites such as ‘www.ratebeer.com’ or ‘www.beeradvocate.com’.
-For maintenance, continuous interest to new beer products is required.
+For maintenance, continuous interest to new beer products is required. <br>
+
+So far our application can classify only cass, tsingtao and guiness. if we can collect enough data for other beers, we will addtion it in our model.
 
 ## 2. Use cases
 
@@ -84,7 +86,10 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 
 <br>
 
-download .apk file on link and install it 
+download apk file and install it [[BARS.apk]](https://github.com/minlee077/BARS/raw/master/Application/BARS.apk)
+
+<br>
+
 
 <br>
 
@@ -135,6 +140,8 @@ Android NDK Version: r19c <br>
 
 ## 8. Contact Information
 
+If you have any questions or suggestions about the project, please contact me by e-mail or create issue in this repository.
+
 <b>[minlee077@naver.com](minlee077@naver.com)</b>
 
 
@@ -155,4 +162,9 @@ Android NDK Version: r19c <br>
 
 ## 10. Change Logs
 
------------------- Alpha release 2019-05-24 ------------------
+[[alpha_Application]](https://github.com/minlee077/BARS/raw/master/Application/BARS.apk)
+
+------------------ Alpha release 2019-05-24 (The model can classify cass, tsingtao, guinnes beer can) ------------------
+
+
+
