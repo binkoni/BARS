@@ -84,7 +84,7 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 
 <br>
 
-download apk file and install it [[BARS.apk]]https://github.com/minlee077/BARS/raw/master/Application/BARS.apk
+download apk file and install it [[BARS.apk]](https://github.com/minlee077/BARS/raw/master/Application/BARS.apk)
 
 <br>
 
