@@ -14,7 +14,9 @@ When it is matched, information about beer comes up at the screen including the 
 
 
 To make the features more reliable, we will refer to the data on worldwide famous beer information websites such as ‘www.ratebeer.com’ or ‘www.beeradvocate.com’.
-For maintenance, continuous interest to new beer products is required.
+For maintenance, continuous interest to new beer products is required. <br>
+
+So far our application can classify only cass, tsingtao and guiness. if we can collect enough data for other beers, we will addtion it in our model.
 
 ## 2. Use cases
 
@@ -138,6 +140,8 @@ Android NDK Version: r19c <br>
 
 ## 8. Contact Information
 
+If you have any question or suggestion please contact me by following e-mail address or create issue please.
+
 <b>[minlee077@naver.com](minlee077@naver.com)</b>
 
 
@@ -158,4 +162,4 @@ Android NDK Version: r19c <br>
 
 ## 10. Change Logs
 
------------------- Alpha release 2019-05-24 ------------------
+------------------ Alpha release 2019-05-24 (The model can classify cass, tsingtao, guinnes beer can) ------------------
