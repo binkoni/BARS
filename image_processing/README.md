@@ -64,7 +64,7 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
  
  
  
-  ## 3. suumary
+  ## 3. Summary
   
   The main purpose of this directory is to build a classfy model and then train it on tensorflow framework.<br>
-  When the whole learning process is done, you can save it as '.tflite' extension file which contains model architecture and also trained weights.<br>
+  When the whole learning process is done, you can save it as a '.tflite' extension file which contains model structure informations and also trained weights.<br>
