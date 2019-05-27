@@ -59,6 +59,10 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 
 
  - Classification Architecture : Inception v3 [[arxiv]](https://arxiv.org/abs/1512.00567)
+ 
+
+ ![inceptionV3_architecture](https://github.com/minlee077/BARS/blob/master/assets/inceptionv3_arch.png)
+ 
 
  Specific implementation : [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageClassification.ipynb)
  
