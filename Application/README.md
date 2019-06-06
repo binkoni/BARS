@@ -1,4 +1,4 @@
-#How to put your classification model
+# How to put your classification model
 
 1. You should make your own classification model (.tflite file)
 
