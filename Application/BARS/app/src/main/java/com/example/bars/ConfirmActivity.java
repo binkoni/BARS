@@ -137,7 +137,6 @@ public class ConfirmActivity extends AppCompatActivity {
         try {
             Bitmap cropImg = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
             selected_image.setImageBitmap(cropImg);
-            // not sure why this happens, but without this the image appears on its side
             selected_image.setRotation(selected_image.getRotation() + 90);
         } catch (IOException e) {
             e.printStackTrace();

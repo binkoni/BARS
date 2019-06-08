@@ -1,8 +1,12 @@
 package com.example.bars;
 
 import android.Manifest;
+import android.content.ContentValues;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
+import android.net.Uri;
+import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -10,7 +14,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import com.soundcloud.android.crop.Crop;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
             Manifest.permission.WRITE_EXTERNAL_STORAGE,
             Manifest.permission.CAMERA};
     private static final int MULTIPLE_PERMISSIONS = 101;
-
+    public static final int REQUEST_IMAGE = 100;
+    private Uri photoUri;
     Button buttonCamera;
 
     @Override
@@ -35,15 +42,48 @@ public class MainActivity extends AppCompatActivity {
         buttonCamera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showCameraActivity();
+                takePhoto();
             }
         });
     }
 
-    public void showCameraActivity() {
-        Intent intent = new Intent(getApplicationContext(), CameraActivity.class);
-        //intent.putExtra("id", "hite");  //예시를 위해 main에서 바로 result로 넘겼습니다. (intent 담아서)
-        startActivityForResult(intent, MAIN_CAMERA_REQUESTCODE);
+    private void takePhoto() {
+        ContentValues values = new ContentValues();
+        values.put(MediaStore.Images.Media.TITLE, "New Picture");
+        values.put(MediaStore.Images.Media.DESCRIPTION, "From your Camera");
+        // tell camera where to store the resulting picture
+        photoUri = getContentResolver().insert(
+                MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        intent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        // start camera, and wait for it to finish
+        startActivityForResult(intent, REQUEST_IMAGE);
+    }
+
+    // dictates what to do after the user takes an image, selects and image, or crops an image
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        super.onActivityResult(requestCode, resultCode, data);
+        // if the camera activity is finished, obtained the uri, crop it to make it square, and send it to Confirm activity
+        if(requestCode == REQUEST_IMAGE && resultCode == RESULT_OK) {
+            try {
+                Uri source_uri = photoUri;
+                Uri dest_uri = Uri.fromFile(new File(getCacheDir(), "cropped"));
+                // need to crop it to square image as CNN's always required square input
+                Crop.of(source_uri, dest_uri).asSquare().start(MainActivity.this);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        // if cropping is finished, get the resulting cropped image uri and send it to Confirm activity
+        else if(requestCode == Crop.REQUEST_CROP && resultCode == RESULT_OK){
+            photoUri = Crop.getOutput(data);
+            Intent i = new Intent(MainActivity.this, ConfirmActivity.class);
+            // put image data in extras to send
+            i.putExtra("resID_uri", photoUri);
+            startActivity(i);
+        }
     }
 
     private boolean checkPermissions() {
