@@ -87,7 +87,7 @@ You can find more detail about the tool in [README](https://github.com/dmsehf804
 
 <br>
 
-download apk file and install it [[BARS.apk]](https://github.com/minlee077/BARS/raw/master/Application/BARS.apk)
+download apk file and install it [[BARS.apk]](https://github.com/minlee077/BARS/raw/master/Application/BARS-Final_release.apk)
 
 <br>
 
@@ -182,9 +182,14 @@ If you have any questions or suggestions about the project, please contact me by
 
 ## 11. Change Logs
 
-[[alpha_Application]](https://github.com/minlee077/BARS/raw/master/Application/BARS.apk)
-
------------------- Alpha release 2019-05-24 (The model can classify cass, tsingtao, guinnes beer can) ------------------
+[[alpha_Application]](https://github.com/minlee077/BARS/raw/master/Application/BARS-Alpha_release.apk)
 
 
+------------------ Alpha release 2019-05-24 ------------------
 
+Performance enhancement and UI modification
+
+[[final_Application]](https://github.com/minlee077/BARS/raw/master/Application/BARS-Final_release.apk)
+
+
+------------------ Final release 2019-06-09 ------------------
