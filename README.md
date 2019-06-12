@@ -142,7 +142,7 @@ Now, You have all the info about the beer which will make you a smart consumer. 
 
  - Classification Architecture : Inception v3 [[arxiv]](https://arxiv.org/abs/1512.00567)
 
- Specific implementation : [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageClassification.ipynb)
+ Specific implementation : [[notebook]](https://github.com/minlee077/BARS/blob/master/image_processing/notebooks/ImageClassification_refactored.ipynb)
 
 ## 7. Tested Device
 
